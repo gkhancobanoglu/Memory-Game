@@ -37,4 +37,5 @@ This project involves developing a memory matching game Android application usin
 - Implemented game logic using Kotlin, handling card flips, matching, scoring, and timer functionalities.
 - Used data structures to manage game state, track scores, and control turn-based gameplay in multiplayer mode.
 
+![Resim Açıklaması](image.png)
 
