@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    <Button
+        android:id="@+id/zorseviyebutton2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/hardDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ortaseviyebutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ortaseviyebutton" />
+
+    <Button
+        android:id="@+id/ortaseviyebutton2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="124dp"
+        android:text="@string/normDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ortaseviyebutton"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="124dp"
+        android:text="@string/normDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kolayseviyebutton"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="@string/ezDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ortaseviyebutton"
+        app:layout_constraintStart_toStartOf="@+id/ortaseviyebutton"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/kolayseviyebutton2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="@string/ezDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ortaseviyebutton"
+        app:layout_constraintStart_toStartOf="@+id/ortaseviyebutton"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/zorseviyebutton"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/hardDifficulty"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ortaseviyebutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ortaseviyebutton" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="202dp"
+        android:layout_height="52dp"
+        android:text="@string/SinglePlayer"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="202dp"
+        android:layout_height="52dp"
+        android:text="@string/Multiplayer"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

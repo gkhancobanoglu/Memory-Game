@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1063918395796",
+    "firebase_url": "https://kayitlar-efe82-default-rtdb.firebaseio.com",
+    "project_id": "kayitlar-efe82",
+    "storage_bucket": "kayitlar-efe82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063918395796:android:b89f9a807bb18f3d632f81",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063918395796-odi6kkhrkh0smctokrtrrpmtas18t9aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjcmwlOY_i6nOXdvInZBanK5lCTcRtSqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063918395796-odi6kkhrkh0smctokrtrrpmtas18t9aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
